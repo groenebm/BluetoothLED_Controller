@@ -1,0 +1,16 @@
+Added Value
+
+As far as Code written myself, most of the music writing comes from code I did back in ECE 102, which is based on code
+(tutorial on making music with aduiono ) from here https://www.arduino.cc/en/Tutorial/toneMelody
+
+The LED Pulse width modulation comes from https://learn.adafruit.com/rgb-led-strips/usage
+
+One task I personally coded recently was the christmas lights and making them flash different colors on the beats. 
+This was a long debugging process coming up with different methods of turning on and off LEDs before I found one that worked.
+
+The interaction between the bluetooth and LED's was my original work, as taking the incoming signal from the serial and decoding
+it into a reasonable input value and determinging what color/descision to make. I had to learn a lot about Serial and the TX and RX pins.
+
+Understanding the pairing process requred me to download apps and test which ones were most successful with my HC-06 chip. 
+Understanding the way the HC-06 chip communicates with the serial helped me code the input statements. 
+
